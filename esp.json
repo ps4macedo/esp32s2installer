@@ -6,18 +6,18 @@
   "new_install_prompt_erase" : false, 
   "builds": [ 
     { 
-      "chipFamily": "ESP32", 
+      "chipFamily": "ESP32S2", 
       "parts": [ 
         { "path": "bootloader.bin", "offset": 4096 }, 
         { "path": "partitions.bin" , "offset": 32768 }, 
         { "path": "ota.bin", "offset": 57344 }, 
-        { "path": "ps4macedo900slv2.bin", "offset":65536 } 
+        { "path": "ps4macedo900slESP32S2v2.bin", "offset":65536 } 
       ] 
     }, 
     { 
       "chipFamily": "ESP8266", 
       "parts": [ 
-        { "path": "esp8266.bin", "offset": 0 } 
+        { "path": "ps4macedo900slESP8266v2.bin", "offset": 0 } 
       ]
     } 
   ] 
