@@ -6,7 +6,7 @@
   "new_install_prompt_erase" : false, 
   "builds": [ 
     { 
-      "chipFamily": "ESP32S2", 
+      "chipFamily": "ESP32-S2", 
       "parts": [ 
         { "path": "bootloader.bin", "offset": 4096 }, 
         { "path": "partitions.bin" , "offset": 32768 }, 
