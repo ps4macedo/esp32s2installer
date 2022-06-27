@@ -1,15 +1,11 @@
 {
-  "name": "PS4Trainer (19.03.2022) Goldhen 2.2.2",
-  "version": "19.03.2022",
+  "name": "PS4MACEDO SUPERLIGHT 11",
+  "version": "GOLDHEN V2.2.2",
   "home_assistant_domain": "esphome",
   "builds": [
     {
       "chipFamily": "ESP32-S2",
-      "parts": [{ "path": "ESP32S2_PS4Trainer_900NA_(19.03.2022).bin", "offset": 0 }]
-    },
-    {
-      "chipFamily": "ESP8266",
-      "parts": [{ "path": "ESP8266_PS4Trainer_900NA_(19.03.2022).bin", "offset": 0 }]
+      "parts": [{ "path": "ps4macedo900slESP32S2v2.bin", "offset": 0 }]
     }
   ]
 }
