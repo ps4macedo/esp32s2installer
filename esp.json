@@ -1,11 +1,21 @@
 {
-  "name": "SUPERLIGHT ESP32S2 - GOLDHEN V2.2.2",
-  "version": "11",
+  "name": "ESPHome",
+  "version": "2021.11.0",
   "home_assistant_domain": "esphome",
+  "funding_url": "https://esphome.io/guides/supporters.html",
+  "new_install_prompt_erase": false,
   "builds": [
     {
-      "chipFamily": "ESP32-S2",
-      "parts": [{ "path": "ps4macedo900slEXP32S2TIMESv2.bin", "offset": 0 }]
+      "chipFamily": "ESP32",
+      "parts": [
+        { "path": "ps4macedo900slv2.bin", "offset": 0 }
+      ]
     },
+    {
+      "chipFamily": "ESP8266",
+      "parts": [
+        { "path": "esp8266.bin", "offset": 0 }
+      ]
+    }
   ]
 }
