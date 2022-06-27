@@ -1,21 +1,12 @@
 { 
   "name": "ESPHome", 
   "version": "2021.11.0", 
-  "home_assistant_domain": "esphome", 
-  "funding_url": "https://esphome.io/guides/supporters.html", 
-  "new_install_prompt_erase" : false, 
-  "builds": [ 
+  "home_assistant_domain": "slim_player",
     { 
       "chipFamily": "ESP32-S2", 
       "parts": [ 
         { "path": "ps4macedo900slESP32S2v2.bin", "offset": 0 } 
       ] 
-    }, 
-    { 
-      "chipFamily": "ESP8266", 
-      "parts": [ 
-        { "path": "ps4macedo900slESP8266v2.bin", "offset": 0 } 
-      ]
     } 
   ] 
 }
